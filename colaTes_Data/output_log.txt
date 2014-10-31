@@ -1,0 +1,26 @@
+Initialize engine version: 4.5.4f1 (e036f44c54c9)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 10.1]
+    Renderer: Intel(R) HD Graphics Family (ID=0x116)
+    Vendor:   Intel
+    VRAM:     64 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\b1012045\Documents\GitHub\biblive2014-Collage\colaTes_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\b1012045\Documents\GitHub\biblive2014-Collage\colaTes_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\b1012045\Documents\GitHub\biblive2014-Collage\colaTes_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\b1012045\Documents\GitHub\biblive2014-Collage\colaTes_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\b1012045\Documents\GitHub\biblive2014-Collage\colaTes_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\b1012045\Documents\GitHub\biblive2014-Collage\colaTes_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\b1012045\Documents\GitHub\biblive2014-Collage\colaTes_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
+Loading C:\Users\b1012045\Documents\GitHub\biblive2014-Collage\colaTes_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
+- Completed reload, in  0.067 seconds
+desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+UnloadTime: 0.339570 ms
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1497.
+Total: 1.193629 ms (FindLiveObjects: 0.065593 ms CreateObjectMapping: 0.024541 ms MarkObjects: 0.155283 ms  DeleteObjects: 0.045514 ms)
+
