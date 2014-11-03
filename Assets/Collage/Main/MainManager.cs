@@ -20,19 +20,19 @@ public class MainManager : MonoBehaviour {
 
 		num_Of_SO = Shelf_Obj_Names.Length;
 		//get movies' length 
-		for(i=0; i < num_Of_SO; i++){
-			mov_Texture = GameObject.Find (Shelf_Obj_Names[i]).renderer.material.mainTexture as MovieTexture;
-			Movie_lengths[i] = mov_Texture.duration;
-		}
-		
-		//get most longest & shotest length in all movies
-		for(i=0; i<num_Of_SO; i++){
-			if(Length_Of_LM < Movie_lengths[i]){
-				Length_Of_LM = Movie_lengths[i];
-			} else if(Length_Of_SM > Movie_lengths[i]){
-				Length_Of_SM = Movie_lengths[i];
-			}
-		}
+//		for(i=0; i < num_Of_SO; i++){
+//			mov_Texture = GameObject.Find (Shelf_Obj_Names[i]).renderer.material.mainTexture as MovieTexture;
+//			Movie_lengths[i] = mov_Texture.duration;
+//		}
+//		
+//		//get most longest & shotest length in all movies
+//		for(i=0; i<num_Of_SO; i++){
+//			if(Length_Of_LM < Movie_lengths[i]){
+//				Length_Of_LM = Movie_lengths[i];
+//			} else if(Length_Of_SM > Movie_lengths[i]){
+//				Length_Of_SM = Movie_lengths[i];
+//			}
+//		}
 	}
 
 	// Update is called once per frame
