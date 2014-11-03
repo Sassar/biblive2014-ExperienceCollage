@@ -9,8 +9,8 @@ public class MainManager : MonoBehaviour {
 	private string[] Shelf_Obj_Names = {"B1_HM", "B2_HM"};	// need to fix!!!!!!!!!!!!!
 	private int num_Of_SO;	// SO:Shelfs Object
 	private float[] Movie_lengths = new float[130];
-	public	float Length_Of_LM = null;	//LM:Longest movie
-	public	float Length_Of_SM = null;	//SM:Shotest movie
+	public	float Length_Of_LM;	//LM:Longest movie
+	public	float Length_Of_SM;	//SM:Shotest movie
 	private MovieTexture mov_Texture;
 	private int i =0;
 
@@ -26,16 +26,13 @@ public class MainManager : MonoBehaviour {
 		}
 		
 		//get most longest & shotest length in all movies
-		Length_Of_LM = Movie_lengths.Max();
-		Length_Of_SM = Movie_lengths.Min();
-
-//		for(i=0; i<num_Of_SO; i++){
-//			if(Length_Of_LM < Movie_lengths[i]){
-//				Length_Of_LM = Movie_lengths[i];
-//			} else if(Length_Of_SM > Movie_lengths[i]){
-//				Length_Of_SM = Movie_lengths[i];
-//			}
-//		}
+		for(i=0; i<num_Of_SO; i++){
+			if(Length_Of_LM < Movie_lengths[i]){
+				Length_Of_LM = Movie_lengths[i];
+			} else if(Length_Of_SM > Movie_lengths[i]){
+				Length_Of_SM = Movie_lengths[i];
+			}
+		}
 	}
 
 	// Update is called once per frame
