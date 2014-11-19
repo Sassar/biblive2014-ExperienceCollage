@@ -26,6 +26,7 @@ public class MainManager : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+
 		screenW = Screen.width;
 		num_Of_SO = Shelf_Obj_Names.Length;
 
