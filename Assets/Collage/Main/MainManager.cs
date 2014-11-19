@@ -7,12 +7,12 @@ public class MainManager : MonoBehaviour {
 
 	private string One_Of_SN;	// SN:Shelf Name
 	private string[] Shelf_Obj_Names = {
-		"A3-01_sh", "A3-02_sh", "A4_sh", "A5_sh",
+		"A3-1_sh", "A3-2_sh", "A4_sh", "A5_sh",
 				  "B01_sh", "B02_HM", "B03_sh", "B04_sh", "B05_sh", "B06_sh", "B07_sh", "B08_sh", "B09_sh",
 		"B10_sh", "B11_sh", "B12_sh", "B13_sh", "B14_sh", "B15_sh", "B16_sh", "B17_sh", "B18_sh", "B19_sh",
-		"B20_sh", "B21_sh", "B22_sh", "B23_sh", "B24_sh", "B25_sh", "B26_sh", "B27_sh", "B28_sh", "B29-01_sh", "B29-02_sh",
-		"B30_sh", "B31_sh", "B32_sh", "B33_sh", "B34_sh", "B35_sh", "B36_sh", "B37_sh", "B38_sh", "B39_sh",
-		"B40_sh", "B41_sh", "B42_sh", "B43_sh", 
+		"B20_sh", "B21_sh", "B22_sh", "B23_sh", "B24_sh", "B25_sh", "B26_sh", "B27_sh", "B28_sh", "B29-a_sh", "B29-b_sh", "B29+_sh", "B29-B30_sh",
+		"B30_sh", "B31_sh", "B31-B32_sh", "B32_sh", "B33_sh", "B33-B34_sh","B34_sh", "B35_sh", "B35-B36_sh", "B36_sh", "B37_sh", "B37-B38_sh", "B38_sh", "B39_sh", "B39-B40_sh",
+		"B40_sh", "B41-B42_sh", "B41_sh", "B42_sh", "B43_sh", 
 		"D01_sh", "D02_sh", "D03_sh", "D04_sh", "D05_sh", "D06_sh", "D07_sh",
 	};
 	private string[] Shelf_Name;
